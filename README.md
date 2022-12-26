@@ -38,21 +38,22 @@ Run the following command in Terminal and build the project. It will automatical
 mvn clean install
 ```
 
-
 If the build is successful. All the required dependencies are installed successfully. But if the build fails, make sure to resolve all the issues in order to execute tests successfully. Make sure that config.properties path in the Property Reader class is set according to your Operating System Environment.<b>
 
-<h2><b>Execute Tests</h2></b>
+<h2>Execute Tests</h2>
 
-Run the following command in Terminal to execute tests.
+Run the following command in Terminal to execute tests.<br>
 
 ```
 mvn clean verify
 ```
 
-<h2><b>Test Report</h2></b>
+<h2><b>Test Reports</h2></b>
 
 You can find the Extent HTML/PDF and JSON reports in the following directory of the Project.<br>
+
   1 \target\test-output\Spark\Inventa-HTML-Report.html<br>
   2 \target\test-output\PdfReport\ Inventa-PDF-Report.pdf<br>
   3 \target\test-output\json\Inventa-JSON-Report.json<br>
+  
 Also, Under the target folder directory, open ‘HTML-Report.html file to view the report.<br>
